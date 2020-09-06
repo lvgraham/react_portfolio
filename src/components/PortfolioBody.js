@@ -5,7 +5,7 @@ import AboutMe from './AboutMe'
 function PortfolioBody() {
 	return (
 		<Box direction='row' flex overflow={{ horizontal: 'hidden' }}>
-			<Box flex align='left' justify='top'>
+			<Box flex align='start' justify='start'>
 				<AboutMe />
 			</Box>
 			{/* <Box
