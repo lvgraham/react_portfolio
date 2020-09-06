@@ -1,11 +1,10 @@
 import React from 'react';
-import { Anchor, Footer, Text } from 'grommet';
+import { Footer, Text } from 'grommet';
 
 function PortfolioFooter() {
 	return (
-		<Footer background='brand' pad='medium'>
-			<Text>Copyright</Text>
-			<Anchor label='About' />
+		<Footer background='brand' pad='medium' justify='center'>
+			<Text size='small'>made with {'\u2764'} </Text>
 		</Footer>
 	);
 }

@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 const theme = {
 	global: {
 		colors: {
-			brand: '#228BE6',
+			brand: '#00739D',
 		},
 		font: {
 			family: 'Roboto',
