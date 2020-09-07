@@ -1,32 +1,16 @@
 import React from 'react';
-import { Box, Button, Heading } from 'grommet';
-import { Notification } from 'grommet-icons';
-
-const AppBar = (props) => (
-	<Box
-		tag='header'
-		direction='row'
-		align='center'
-		justify='between'
-		background='brand'
-		pad={{ left: 'medium', right: 'small', vertical: 'small' }}
-		elevation='medium'
-		style={{ zIndex: '1' }}
-		{...props}
-	/>
-);
+import { Navbar, Nav } from 'react-bootstrap';
 
 function NavBar() {
 	return (
-		<AppBar>
-			<Heading level='3' margin='none'>
-				Portfolio
-			</Heading>
-			<Button
-				icon={<Notification />}
-			/>
-		</AppBar>
-        
+		<Navbar bg='light' variant='light'>
+			<Navbar.Brand href='#home'>Lia Graham</Navbar.Brand>
+			<Nav className='mr-auto'>
+				<Nav.Link href='#home'>Home</Nav.Link>
+				<Nav.Link href='#features'>Projects</Nav.Link>
+				<Nav.Link href='#pricing'>Resume</Nav.Link>
+			</Nav>
+		</Navbar>
 	);
 }
 

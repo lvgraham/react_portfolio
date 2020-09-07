@@ -1,32 +1,27 @@
-import React from 'react';
-import { Box, Grommet } from 'grommet';
+import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import { Box, Grommet } from 'grommet';
 import NavBar from './components/NavBar';
-import PortfolioBody from './components/PortfolioBody';
-import Footer from './components/Footer'
+import AboutMe from './components/AboutMe';
+import ProjectPreview from './components/ProjectPreview';
+import Footer from './components/Footer';
+import projects from './projects.json';
 
-const theme = {
-	global: {
-		colors: {
-			brand: '#00739D',
-		},
-		font: {
-			family: 'Roboto',
-			size: '18px',
-			height: '20px',
-		},
-	},
-};
+class App extends Component {
+	state = {
+		projects,
+	};
 
-function App() {
-	return (
-		<Grommet theme={theme} full>
-			<Box fill>
+	render() {
+		return (
+			<div>
 				<NavBar />
-				<PortfolioBody />
-        <Footer />
-			</Box>
-		</Grommet>
-	);
+				<AboutMe />
+        <ProjectPreview />
+				<Footer />
+			</div>
+		);
+	}
 }
 
 export default App;

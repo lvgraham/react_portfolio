@@ -1,11 +1,11 @@
 import React from 'react';
-import { Footer, Text } from 'grommet';
+import Navbar from 'react-bootstrap/Navbar'
 
 function PortfolioFooter() {
 	return (
-		<Footer background='brand' pad='medium' justify='center'>
-			<Text size='small'>made with {'\u2764'} </Text>
-		</Footer>
+		<Navbar fixed="bottom" bg='light' variant='light' className='justify-content-center'>
+			<p>Made with <span role='img' aria-label='love'>&#128151;</span></p> 
+		</Navbar>
 	);
 }
 
