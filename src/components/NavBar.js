@@ -1,14 +1,23 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
 	return (
 		<Navbar bg='light' variant='light'>
 			<Navbar.Brand href='#home'>Lia Graham</Navbar.Brand>
 			<Nav className='mr-auto'>
-				<Nav.Link href='#home'>Home</Nav.Link>
-				<Nav.Link href='#features'>Projects</Nav.Link>
-				<Nav.Link href='#pricing'>Resume</Nav.Link>
+				<ul>
+				<Link to='/'>
+					<li>Home</li>
+				</Link>
+				<Link to='/project'>
+					<li>Projects</li>
+				</Link>
+				<Link to='/resume'>
+					<li>Resume</li>
+				</Link>
+				</ul>
 			</Nav>
 		</Navbar>
 	);
