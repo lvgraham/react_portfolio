@@ -19,8 +19,8 @@ class App extends Component {
 				<div>
 					{/* main page */}
 					<NavBar />
+					<Route path='/' exact component={About} />
 					<Switch>
-						<Route path='/' exact component={About} />
 						<Route path='/project' component={Project} />
 						<Route path='/resume' component={Resume} />
 					</Switch>
