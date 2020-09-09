@@ -10,7 +10,7 @@ function AboutMe() {
 					<Col xs={4}>
 						<Image className='profile-image' alt='Photo of Lia Graham' src={require('../images/portfolio2.JPG')} roundedCircle />
 					</Col>
-					<Col>
+					<Col className='aboutMe'>
 						<p>
 							I am an ambitious person with a background in customer service. I
 							am just starting my journey as a full-stack web developer, and my
