@@ -2,37 +2,37 @@
   {
     "id": 1,
     "name": "Web Organizer",
-    "image": "web_organizer.png",
+    "image": "../images/web_organizer.png",
     "description": ""
   },
   {
     "id": 2,
     "name": "Burger Time",
-    "image": "burgertime.png",
+    "image": "../images/burgertime.png",
     "description": ""
   },
   {
     "id": 3,
     "name": "Campsite Finder",
-    "image": "camppic.jpg",
+    "image": "../images/camppic.jpg",
     "description": ""
   },
   {
     "id": 4,
     "name": "Note Taker",
-    "image": "notetaker.jpg",
+    "image": "../images/notetaker.jpg",
     "description": ""
   },
   {
     "id": 5,
     "name": "Javascript Quiz",
-    "image": "jsquiz.png",
+    "image": "../images/jsquiz.png",
     "description": ""
   },
   {
     "id": 6,
     "name": "Weather Dashboard",
-    "image": "weatherdashboard.jpg",
+    "image": "../images/weatherdashboard.jpg",
     "description": ""
   }
 ]

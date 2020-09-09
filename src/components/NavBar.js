@@ -1,13 +1,12 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './NavBar.css';
 
 function NavBar() {
 	return (
-		<Navbar bg='light' variant='light'>
-			<Navbar.Brand href='#home'>Lia Graham</Navbar.Brand>
-			<Nav className='mr-auto'>
-				<ul>
+		<nav>
+			<h3>Lia Graham</h3>
+			<ul className='nav-links'>
 				<Link to='/'>
 					<li>Home</li>
 				</Link>
@@ -17,9 +16,8 @@ function NavBar() {
 				<Link to='/resume'>
 					<li>Resume</li>
 				</Link>
-				</ul>
-			</Nav>
-		</Navbar>
+			</ul>
+		</nav>
 	);
 }
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ProjectCard from '../components/ProjectCard';
-import Wrapper from '../components/Wrapper'
 import projects from '../projects.json';
+import './ProjectPage.css'
 
 class Project extends Component {
 	state = {
@@ -10,7 +10,7 @@ class Project extends Component {
 
 	render() {
 		return (
-			<Wrapper>
+			<div className="wrapper">
 				{this.state.projects.map((project) => (
 					<ProjectCard
 						id={project.id}
@@ -20,7 +20,7 @@ class Project extends Component {
 						description={project.occupation}
 					/>
 				))}
-			</Wrapper>
+			</div>
 		);
 	}
 }

@@ -2,12 +2,11 @@ import React from 'react';
 import './ProjectCard.css';
 
 function ProjectCard(props) {
-	const image = '../images/' + props.image;
 
 	return (
 		<div className='card'>
 			<div className='img-container'>
-				<img alt={props.name} src={image} />
+				<img alt={props.name} src={props.image} />
 			</div>
 			<div className='content'>
 				<ul>
