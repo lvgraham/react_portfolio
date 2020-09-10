@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar'
 
 function PortfolioFooter() {
 	return (
-		<Navbar fixed="bottom" bg='light' variant='light' className='justify-content-center'>
+		<Navbar fixed="bottom" bg='light' variant='light' className='justify-content-center footer'>
 			<p>Made with <span role='img' aria-label='love'>&#128151;</span></p> 
 		</Navbar>
 	);
