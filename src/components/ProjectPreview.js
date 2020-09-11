@@ -9,7 +9,7 @@ function ControlledCarousel() {
 				<Carousel.Item>
 					<img
 						className='d-block w-100'
-						src={require('../images/burgertime.png')}
+						src='https://i.imgur.com/ZLuMhhp.png'
 						alt='Burger Time!'
 					/>
 					<Carousel.Caption>
@@ -22,7 +22,7 @@ function ControlledCarousel() {
 				<Carousel.Item>
 					<img
 						className='d-block w-100'
-						src={require('../images/camppic.jpg')}
+						src='https://i.imgur.com/etFVO5z.jpg'
 						alt='Campsite Finder'
 					/>
 
@@ -33,8 +33,8 @@ function ControlledCarousel() {
 				<Carousel.Item>
 					<img
 						className='d-block w-100'
-						src={require('../images/web_organizer.png')}
-						alt='Third slide'
+						src='https://i.imgur.com/nZtJof5.png'
+						alt='Note Taker'
 					/>
 
 					<Carousel.Caption>

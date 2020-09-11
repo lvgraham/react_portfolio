@@ -20,7 +20,7 @@ class App extends Component {
 					{/* main page */}
 					<NavBar />
 					<Switch>
-            <Route path='/' exact component={About} />
+						<Route path='/react_portfolio' exact component={About} />
 						<Route path='/project' component={Project} />
 						<Route path='/resume' component={Resume} />
 					</Switch>

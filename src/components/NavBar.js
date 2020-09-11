@@ -7,7 +7,7 @@ function NavBar() {
 		<nav>
 			<h3>Lia Graham</h3>
 			<ul className='nav-links'>
-				<Link to='/'>
+				<Link to='/react_portfolio'>
 					<li>Home</li>
 				</Link>
 				<Link to='/project'>

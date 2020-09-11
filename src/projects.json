@@ -1,38 +1,38 @@
 [
-  {
-    "id": 1,
-    "name": "Web Organizer",
-    "image": "../images/web_organizer.png",
-    "description": ""
-  },
-  {
-    "id": 2,
-    "name": "Burger Time",
-    "image": "../images/burgertime.png",
-    "description": ""
-  },
-  {
-    "id": 3,
-    "name": "Campsite Finder",
-    "image": "../images/camppic.jpg",
-    "description": ""
-  },
-  {
-    "id": 4,
-    "name": "Note Taker",
-    "image": "../images/notetaker.jpg",
-    "description": ""
-  },
-  {
-    "id": 5,
-    "name": "Javascript Quiz",
-    "image": "../images/jsquiz.png",
-    "description": ""
-  },
-  {
-    "id": 6,
-    "name": "Weather Dashboard",
-    "image": "../images/weatherdashboard.jpg",
-    "description": ""
-  }
+	{
+		"id": 1,
+		"name": "Web Organizer",
+		"image": "https://i.imgur.com/ziPnzf0.png",
+		"description": "A one-stop-shop to house all of your important bookmarks, from recipes to javascript tutorials, so that you do not have to waste time sifting through your onetab."
+	},
+	{
+		"id": 2,
+		"name": "Burger Time",
+		"image": "https://i.imgur.com/ZLuMhhp.png",
+		"description": "A place to make a wishlist of all the burgers you want to enjoy, and then cross them off as you devour them."
+	},
+	{
+		"id": 3,
+		"name": "Campsite Finder",
+		"image": "https://i.imgur.com/etFVO5z.jpg",
+		"description": "An app that allows you to search for all campsites within a desired state."
+	},
+	{
+		"id": 4,
+		"name": "Note Taker",
+		"image": "https://i.imgur.com/nZtJof5.png",
+		"description": "Allows you to take, save, and delete notes to stay organized in your life."
+	},
+	{
+		"id": 5,
+		"name": "Javascript Quiz",
+		"image": "https://i.imgur.com/YKNsxIc.png",
+		"description": "A quick quiz app to test your javascript knowledge"
+	},
+	{
+		"id": 6,
+		"name": "Weather Dashboard",
+		"image": "https://i.imgur.com/ZEgvEY0.jpg",
+		"description": "A simple weather dashboard to show you the current and 5 day forecast for your desired city"
+	}
 ]

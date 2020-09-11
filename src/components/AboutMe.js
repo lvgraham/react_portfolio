@@ -8,7 +8,7 @@ function AboutMe() {
 			<Container>
 				<Row>
 					<Col xs={4}>
-						<Image className='profile-image' alt='Photo of Lia Graham' src={require('../images/portfolio2.JPG')} roundedCircle />
+						<Image className='profile-image' alt='Photo of Lia Graham' src='https://i.imgur.com/IU6QPY5.jpg' roundedCircle />
 					</Col>
 					<Col className='aboutMe'>
 						<p>
