@@ -20,11 +20,12 @@
   }
   
   .card > .content {
-    font-size: 15px;
+    font-size: 14px;
   }
   
   .card > .content > ul {
     list-style-type: none;
+    padding-left: 10px;
   }
   
   .card > .content > ul > li {

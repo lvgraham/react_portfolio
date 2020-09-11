@@ -17,7 +17,7 @@ class Project extends Component {
 						key={project.id}
 						name={project.name}
 						image={project.image}
-						description={project.occupation}
+						description={project.description}
 					/>
 				))}
 			</div>
