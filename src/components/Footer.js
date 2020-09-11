@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar'
+import './footer.css'
 
 function PortfolioFooter() {
 	return (
-		<Navbar fixed="bottom" bg='light' variant='light' className='justify-content-center footer'>
+		<footer>
 			<p>Made with <span role='img' aria-label='love'>&#128151;</span></p> 
-		</Navbar>
+		</footer>
 	);
 }
 
